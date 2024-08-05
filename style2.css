@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    padding-left:16px;
+    font-family: "Space Mono", monospace;
+    font-style:normal;
+    font-size:20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+  
+
+}
+h2{
+    color: black;
+    padding-left:16px;
+    font-family: "Space Mono", monospace;
+    font-style:normal;
+    font-size:10px;
+    margin-top: 10px;
+}
+
+
+.navbar-nav{
+    flex:content;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+.page-2-box1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px
+    
+}
+.contact-info{
+    text-align: center;
+    background-color: #D9D9D9;
+    color: black;
+    padding: 30px;
+    padding-top: 60px;
+    margin-right: 20px;
+    margin-left: 0;
+    border-radius: 10%;
+
+}
+
+.payment-area{
+    background-color: rgba(255, 255, 255, 0.215);
+    border-radius: 10px;
+   
+    padding: 5px;
+   
+    
+}
+
+.working-schedule{
+    font-weight:lighter;
+    
+}
+
+.block1{
+    padding: 3rem;
+}
+.col-lg-6{
+    padding:30px;
+    text-align: center;
+    font-size: large;
+}
+
+.border-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
